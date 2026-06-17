@@ -1,0 +1,42 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    volumes:
+      - ./:/var/www/html:cached
+    ports:
+      - "8080:80"
+    environment:
+      - DB_HOST=db
+      - DB_NAME=nuoc_hoa_tmh
+      - DB_USER=shopuser
+      - DB_PASS=shoppass
+      - BASE_URL=/
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10.6
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpwd
+      MYSQL_DATABASE: nuoc_hoa_tmh
+      MYSQL_USER: shopuser
+      MYSQL_PASSWORD: shoppass
+    volumes:
+      - db_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: rootpwd
+    ports:
+      - "8081:80"
+    depends_on:
+      - db
+
+volumes:
+  db_data:

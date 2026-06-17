@@ -1,0 +1,4 @@
+[25-May-2026 13:06:20 UTC] PHP Warning:  move_uploaded_file(/home/buiiducthangg/public_html/uploads/avatars/avatar_3_1779714380_d6386db6.png): Failed to open stream: Permission denied in /home/buiiducthangg/public_html/profile.php on line 63
+[25-May-2026 13:06:20 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phprsD7Vi' to '/home/buiiducthangg/public_html/uploads/avatars/avatar_3_1779714380_d6386db6.png' in /home/buiiducthangg/public_html/profile.php on line 63
+[25-May-2026 13:07:27 UTC] PHP Warning:  move_uploaded_file(/home/buiiducthangg/public_html/uploads/avatars/avatar_3_1779714447_cd5e9e53.png): Failed to open stream: Permission denied in /home/buiiducthangg/public_html/profile.php on line 63
+[25-May-2026 13:07:27 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php5zkOCR' to '/home/buiiducthangg/public_html/uploads/avatars/avatar_3_1779714447_cd5e9e53.png' in /home/buiiducthangg/public_html/profile.php on line 63

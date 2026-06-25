@@ -146,8 +146,6 @@ php -S localhost:8000
 
 > Hoặc chạy bằng môi trường web server như XAMPP, Laragon, Docker tùy theo cách triển khai của bạn.
 
----
-
 
 ## 🔗 Liên kết nhanh
 

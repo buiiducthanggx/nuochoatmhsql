@@ -23,7 +23,7 @@ Dự án được xây dựng nhằm mô phỏng một hệ thống bán hàng t
 - Quản lý đơn hàng
 - Theo dõi tiến độ công việc qua Jira Board
 
-Dự án phù hợp cho mục đích học tập, thực hành và làm đồ án môn học.
+
 
 ---
 
@@ -69,7 +69,7 @@ Dự án phù hợp cho mục đích học tập, thực hành và làm đồ á
 
 ## 🛠️ Công nghệ sử dụng
 
-> Phần này bạn có thể chỉnh lại đúng với stack thực tế của dự án.
+
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP
@@ -148,27 +148,6 @@ php -S localhost:8000
 
 ---
 
-## 📸 Hình ảnh minh họa
-
-> Bạn có thể chèn ảnh chụp màn hình vào đây để README chuyên nghiệp hơn.
-
-- Trang chủ
-- Trang danh sách sản phẩm
-- Trang chi tiết sản phẩm
-- Giỏ hàng
-- Trang thanh toán
-- Trang quản trị
-
-Ví dụ:
-
-```markdown
-![Homepage](docs/images/homepage.png)
-![Product List](docs/images/product-list.png)
-![Cart](docs/images/cart.png)
-![Checkout](docs/images/checkout.png)
-```
-
----
 
 ## 🔗 Liên kết nhanh
 
